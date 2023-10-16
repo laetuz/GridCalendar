@@ -11,6 +11,8 @@
 		8761ABD82ADD0C180085C7CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8761ABD72ADD0C180085C7CE /* ContentView.swift */; };
 		8761ABDA2ADD0C190085C7CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8761ABD92ADD0C190085C7CE /* Assets.xcassets */; };
 		8761ABDE2ADD0C190085C7CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8761ABDD2ADD0C190085C7CE /* Preview Assets.xcassets */; };
+		8761ABE62ADD0D670085C7CE /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8761ABE52ADD0D670085C7CE /* Day.swift */; };
+		8761ABE82ADD0DF00085C7CE /* Month.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8761ABE72ADD0DF00085C7CE /* Month.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		8761ABD92ADD0C190085C7CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8761ABDB2ADD0C190085C7CE /* GridCalendar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GridCalendar.entitlements; sourceTree = "<group>"; };
 		8761ABDD2ADD0C190085C7CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8761ABE52ADD0D670085C7CE /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		8761ABE72ADD0DF00085C7CE /* Month.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Month.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 		8761ABD42ADD0C180085C7CE /* GridCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				8761ABE42ADD0D5A0085C7CE /* Models */,
 				8761ABD52ADD0C180085C7CE /* GridCalendarApp.swift */,
 				8761ABD72ADD0C180085C7CE /* ContentView.swift */,
 				8761ABD92ADD0C190085C7CE /* Assets.xcassets */,
@@ -67,6 +72,15 @@
 				8761ABDD2ADD0C190085C7CE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8761ABE42ADD0D5A0085C7CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8761ABE52ADD0D670085C7CE /* Day.swift */,
+				8761ABE72ADD0DF00085C7CE /* Month.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8761ABE82ADD0DF00085C7CE /* Month.swift in Sources */,
 				8761ABD82ADD0C180085C7CE /* ContentView.swift in Sources */,
 				8761ABD62ADD0C180085C7CE /* GridCalendarApp.swift in Sources */,
+				8761ABE62ADD0D670085C7CE /* Day.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
